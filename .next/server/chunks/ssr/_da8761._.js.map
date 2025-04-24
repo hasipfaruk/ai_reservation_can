@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/geistsans_9fc57718.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"className\": \"geistsans_9fc57718-module__5N2VMq__className\",\n  \"variable\": \"geistsans_9fc57718-module__5N2VMq__variable\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/geistmono_b9f59162.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"className\": \"geistmono_b9f59162-module__Or8qSa__className\",\n  \"variable\": \"geistmono_b9f59162-module__Or8qSa__variable\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
