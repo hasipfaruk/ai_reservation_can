@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -14,7 +8,7 @@ datasource db {
 }
 
 model Table {
-  id              Int           @id @default(autoincrement())
+  id              Int           @id @default(autoincrement())  // Correct usage for PostgreSQL
   number          Int           @unique
   capacity        Int
   isAvailable     Boolean       @default(true)
@@ -24,7 +18,7 @@ model Table {
 }
 
 model Reservation {
-  id              Int           @id @default(autoincrement())
+  id              Int           @id @default(autoincrement())  // Correct usage for PostgreSQL
   name            String
   phone           String
   numberOfPersons Int
